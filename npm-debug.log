@@ -1,0 +1,63 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'felixge/node-mysql' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json Test_Geo_Twitter@1.0.0 No repository field.
+6 warn package.json Test_Geo_Twitter@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'felixge/node-mysql', null ]
+9 verbose cache add name=undefined spec="felixge/node-mysql" args=["felixge/node-mysql",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'felixge/node-mysql',
+10 verbose parsed url   path: 'felixge/node-mysql',
+10 verbose parsed url   href: 'felixge/node-mysql' }
+11 silly lockFile 4f4f7be1-felixge-node-mysql felixge/node-mysql
+12 verbose lock felixge/node-mysql C:\Users\Sebastien\AppData\Roaming\npm-cache\4f4f7be1-felixge-node-mysql.lock
+13 info maybeGithub Attempting felixge/node-mysql from git://github.com/felixge/node-mysql
+14 silly lockFile a6c4cfee-it-github-com-felixge-node-mysql git://github.com/felixge/node-mysql
+15 verbose lock git://github.com/felixge/node-mysql C:\Users\Sebastien\AppData\Roaming\npm-cache\a6c4cfee-it-github-com-felixge-node-mysql.lock
+16 verbose addRemoteGit [ 'git://github.com/felixge/node-mysql', 'master' ]
+17 warn `git config --get remote.origin.url` returned wrong result (git://github.com/felixge/node-mysql) undefined
+17 warn `git config --get remote.origin.url` returned wrong result (git://github.com/felixge/node-mysql) undefined
+18 verbose git clone git://github.com/felixge/node-mysql undefined
+18 verbose git clone git://github.com/felixge/node-mysql undefined
+19 silly lockFile a6c4cfee-it-github-com-felixge-node-mysql git://github.com/felixge/node-mysql
+20 silly lockFile a6c4cfee-it-github-com-felixge-node-mysql git://github.com/felixge/node-mysql
+21 info maybeGithub Attempting felixge/node-mysql from git+ssh://git@github.com:felixge/node-mysql
+22 silly lockFile 246b2140-it-github-com-felixge-node-mysql git@github.com:felixge/node-mysql
+23 verbose lock git@github.com:felixge/node-mysql C:\Users\Sebastien\AppData\Roaming\npm-cache\246b2140-it-github-com-felixge-node-mysql.lock
+24 verbose addRemoteGit [ 'git@github.com:felixge/node-mysql', 'master' ]
+25 warn `git config --get remote.origin.url` returned wrong result (git@github.com:felixge/node-mysql) undefined
+25 warn `git config --get remote.origin.url` returned wrong result (git@github.com:felixge/node-mysql) undefined
+26 error git clone git@github.com:felixge/node-mysql undefined
+26 error git clone git@github.com:felixge/node-mysql undefined
+27 silly lockFile 246b2140-it-github-com-felixge-node-mysql git@github.com:felixge/node-mysql
+28 silly lockFile 246b2140-it-github-com-felixge-node-mysql git@github.com:felixge/node-mysql
+29 silly lockFile 4f4f7be1-felixge-node-mysql felixge/node-mysql
+30 silly lockFile 4f4f7be1-felixge-node-mysql felixge/node-mysql
+31 error addLocal Could not install felixge/node-mysql
+32 error Error: ENOENT, stat 'C:\Users\Sebastien\Desktop\Twitter\Test_Geo_Twitter\felixge\node-mysql'
+33 error If you need help, you may report this *entire* log,
+33 error including the npm and node versions, at:
+33 error     <http://github.com/npm/npm/issues>
+34 error System Windows_NT 6.2.9200
+35 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "felixge/node-mysql"
+36 error cwd C:\Users\Sebastien\Desktop\Twitter\Test_Geo_Twitter
+37 error node -v v0.10.35
+38 error npm -v 1.4.28
+39 error path C:\Users\Sebastien\Desktop\Twitter\Test_Geo_Twitter\felixge\node-mysql
+40 error code ENOENT
+41 error errno 34
+42 verbose exit [ 34, true ]
